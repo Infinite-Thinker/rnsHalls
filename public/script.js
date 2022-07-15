@@ -1,5 +1,5 @@
 const ids = ["login", "welcome", "home", "notifications", "keys", "bookingHistory", "history", "notifications-admin", "history-admin", "setting"]
-const halls = ["hall1", "hall2", "hall3"]
+const halls = ["hall1", "hall2"]
 let active = 0
 
 let cHall = window.location.hash.substring(1) || "hall1"
